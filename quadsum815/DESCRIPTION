@@ -1,0 +1,17 @@
+Package: quadsum815
+Type: Package
+Title: Various R and Rcpp Implementations of a Quadratic Sum
+Version: 1.0
+Author: Stephen Salerno
+Maintainer: Stephen Salerno <salernos@umich.edu>
+Description: This package is in fulfillment of the requirements of Homework 00 for BIOSTAT 815. quadsum815 provides 
+    five different implementations of functions to compute a single scalar value of the quadratic sum x'Ay. The functions 
+    are as follows: (1) quadsumR: A loop-based R implementation, (2) quadsumS: A loop-free R implementation, (3) quadsumT: 
+    A matrix-based R implementation, (4) quadsumC: A loop-based Rcpp implementation, and (5) quadsumB: A blockwise 
+    loop-based Rcpp implementation.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.18)
+LinkingTo: Rcpp
+RoxygenNote: 6.1.0
